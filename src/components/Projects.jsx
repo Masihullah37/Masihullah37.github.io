@@ -15,7 +15,6 @@ function Projects() {
         "Déploiement local avec Laragon, gestion de projet avec Trello",
       ],
       github: "https://github.com/Masihullah37/Projects/tree/main",
-      live: "https://test.icvinformatique.com", // added live URL
       colorClass: "badge-purple",
     },
     {
