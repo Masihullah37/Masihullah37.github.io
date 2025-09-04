@@ -67,26 +67,10 @@ function Projects() {
                       </li>
                     ))}
                   </ul>
-                <div className="d-flex flex-column mb-2">
-  {project.live && (
-    <a
-      href={project.live}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="live-link mb-2"
-    >
-      <i className="bi bi-box-arrow-up-right me-2"></i> Voir le site en ligne
-    </a>
-  )}
-  <a
-    href={project.github}
-    target="_blank"
-    rel="noopener noreferrer"
-    className="github-link"
-  >
-    <i className="bi bi-github me-2"></i> Voir sur GitHub
-  </a>
-</div>
+                  <a href={project.github} target="_blank" rel="noopener noreferrer" 
+                    className="d-flex align-items-center text-primary jetbrains-mono-regular" > 
+                    <i className="bi bi-github me-2"></i> Voir sur GitHub </a>
+       
 
                 </div>
               </div>
