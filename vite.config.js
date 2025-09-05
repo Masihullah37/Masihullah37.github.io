@@ -1,9 +1,14 @@
+
+
 // import { defineConfig } from 'vite'
 // import react from '@vitejs/plugin-react'
 // import { resolve } from 'path'
 
+// // Check if we're in production
+// const isProduction = process.env.NODE_ENV === 'production'
+
 // export default defineConfig({
-//   base: '/Portfolio_project/',
+//   base: isProduction ? '/Portfolio_project/' : '/',
 //   plugins: [react()],
 //   build: {
 //     outDir: 'dist',
@@ -14,16 +19,13 @@
 //     }
 //   }
 // })
-
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { resolve } from 'path'
 
-// Check if we're in production
-const isProduction = process.env.NODE_ENV === 'production'
-
+// No need for conditional base here
 export default defineConfig({
-  base: isProduction ? '/Portfolio_project/' : '/',
+  base: '/',   // because it's deployed at root
   plugins: [react()],
   build: {
     outDir: 'dist',
