@@ -10,7 +10,7 @@ function About() {
               je souhaite intégrer une entreprise innovante afin de mettre en œuvre mes compétences techniques et mon
               sens de l'organisation pour contribuer à des projets digitaux ambitieux.
             </p>
-            <p className="lead text-secondary jetbrains-mono-regular">
+            <p className="lead text-white mb-4  jetbrains-mono-regular">
               Fort d'une expérience significative acquise lors d'un projet e-commerce en stage, je suis prêt à
               m'investir dans une équipe agile et dynamique.
             </p>

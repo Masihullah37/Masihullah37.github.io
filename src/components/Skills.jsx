@@ -3,7 +3,7 @@ function Skills() {
     {
       title: "Langages & Frameworks",
       icon: "💻",
-      skills: ["HTML5", "CSS3", "Bootstrap", "JavaScript", "React.js", "PHP", "Symfony"],
+      skills: ["HTML5", "CSS3", "Bootstrap", "JavaScript", "React.js", "PHP", "Symfony","laravel"],
       colorClass: "badge-purple",
     },
     {
