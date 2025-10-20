@@ -40,6 +40,13 @@ function Projects() {
       github: "https://github.com/masihullah/spotify-clone",
       colorClass: "badge-orange",
     },
+     {
+      title: "Google chrome extension",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      description: ["This Google Chrome extension is a simple yet powerful bookmark manager that allows users to save and manage URLs directly from their browser"],
+      github: "https://github.com/Masihullah37/Google-chrome-extension.git",
+      colorClass: "badge-blue",
+    },
   ]
 
   return (
