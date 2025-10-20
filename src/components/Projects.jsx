@@ -45,7 +45,7 @@ function Projects() {
       technologies: ["HTML", "CSS", "JavaScript"],
       description: ["This Google Chrome extension is a simple yet powerful bookmark manager that allows users to save and manage URLs directly from their browser"],
       github: "https://github.com/Masihullah37/Google-chrome-extension.git",
-      colorClass: "badge-green",
+      colorClass: "badge-blue",
     },
   ]
 
